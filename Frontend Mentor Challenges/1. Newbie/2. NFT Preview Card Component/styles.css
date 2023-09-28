@@ -67,5 +67,91 @@ body {
 }
 
 .description {
-    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pricing img {
+    margin: 0 0.4rem 0 1rem;
+}
+
+.price {
+    color: var(--cyan);
+    font-weight: 600;
+}
+
+.timing {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.timing img {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.time {
+    margin: 0 1rem 0 0.4rem;
+    color: var(--soft-blue);
+}
+
+.line {
+    border-bottom: 1px solid var(--line-blue);
+    margin: 1rem 0 1rem 1rem;
+    width: 90%;
+}
+
+.creation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.creation img {
+    width: 2.2rem;
+    margin-right: 1rem;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+
+.part1 {
+    color: var(--soft-blue);
+}
+
+.part2 {
+    color: var(--white);
+    text-indent: 0.3rem;
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    color: var(--soft-blue);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 0.8rem;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        height: 600px;
+        width: 340px;
+    }
 }
